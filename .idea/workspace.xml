@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c22e69a7-c31b-4926-90e6-bed48ff0b28d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iBfKCPpKW928haGQBCDVxCcM7i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,11 +38,17 @@
       <workItem from="1601385841550" duration="7212000" />
       <workItem from="1601437987535" duration="6514000" />
       <workItem from="1601469243248" duration="2470000" />
-      <workItem from="1601474807405" duration="7000" />
+      <workItem from="1601474807405" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1198" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601475175864">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1198" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601475175864" />
   </component>
 </project>
