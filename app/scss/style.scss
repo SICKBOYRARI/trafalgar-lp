@@ -129,13 +129,6 @@ svg:not(:root) {overflow: hidden;}
       }
       .header__text{
         font-weight: 700;
-        &:before{
-          content: 'T';
-          position: absolute;
-          left: 204px;
-          color: #fff;
-          top: 78px;
-        }
       }
     }
     .header__ul{
@@ -171,7 +164,7 @@ svg:not(:root) {overflow: hidden;}
   padding-bottom: 190px;
   position: relative;
   &:before{
-    content: url("../img/dots2.png");
+    content: url("../img/dots.png");
     position: absolute;
     left: -150px;
     top: -30px;
@@ -252,7 +245,7 @@ svg:not(:root) {overflow: hidden;}
     padding-bottom: 80px;
     position: relative;
     &:after{
-      content: url("../img/dots2.png");
+      content: url("../img/dots.png");
       right: -335px;
       top: 540px;
       position: absolute;
@@ -392,7 +385,7 @@ svg:not(:root) {overflow: hidden;}
   position: relative;
 
   &:after{
-    content: url("../img/dots3.png");
+    content: url("../img/dots.png");
     position: absolute;
     right: -150px;
     top: -240px;
@@ -608,7 +601,7 @@ svg:not(:root) {overflow: hidden;}
         &:nth-child(1){
           position: relative;
           &:before{
-            content: url("../img/dots3.png");
+            content: url("../img/dots.png");
             left: -50px;
             top: -50px;
             position: absolute;
