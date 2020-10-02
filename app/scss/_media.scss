@@ -1,0 +1,197 @@
+@media (max-width: 1650px) {
+  .services .services__items {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .container{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .article .article__main .article__items .article__item:nth-child(3):after {
+    content: url(../img/element.png);
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: -1;
+  }
+  .download__main:after {
+    right: 0;
+  }
+  .services .services__subtitle:after {
+    right: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .home, .leading, .download{
+    img{
+      width: 50% ;
+      object-fit: fill;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .customer__slider{
+    flex-direction: column;
+    align-items: center;
+  }
+  .customer .customer__item:after {
+    right: 0;
+  }
+  .customer .customer__item {
+    width: 100%;
+    height: 100%;
+  }
+  .article .article__main .article__items {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .article .article__main .article__items .article__item {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    &:nth-child(2){
+      margin-right: 0;
+    }
+    &:nth-child(3){
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+  .leading, .download{
+    img{
+      display: none;
+    }
+    .leading__main, .download__main{
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+  }
+  .services__btn {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .article .article__main .article__button-container .article__button {
+    margin-bottom: 100px;
+  }
+  .customer {
+    padding-bottom: 100px;
+  }
+  .services .services__subtitle {
+    width: 100%;
+  }
+  .services:before {
+    transform: scale(.85);
+    left: -133px;
+  }
+  .footer .footer__content .footer__info .footer__item {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 850px) {
+  .home__main {
+    text-align: center;
+    flex-direction: column;
+    img{
+      width: 100%;
+      padding-top: 100px;
+    }
+  }
+  .home__main {
+    padding-bottom: 90px;
+  }
+  .tpl_hamburger{
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  .js_menu{
+    display: none;
+  }
+  .services .services__items {
+    width: 699px;
+  }
+  .services .services__items .services__item:nth-child(4) {
+    margin-bottom: 37px;
+  }
+  .services .services__items .services__item:nth-child(5) {
+    margin-bottom: 37px;
+  }
+  .services .services__items .services__item:nth-child(6) {
+    margin-bottom: 37px;
+  }
+  .footer .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__info{
+    padding-top: 60px;
+  }
+  .article .article__main .article__items .article__item {
+    margin-right: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .article__img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .services .services__items {
+    width: 100%;
+  }
+  .customer .customer__item {
+    padding: 30px 10px 10px 30px;
+  }
+  .customer .customer__item .customer__content .customer__text {
+    width: 300px;
+    padding-bottom: 30px;
+  }
+  .customer .customer__item .customer__content .customer__info {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .services:before {
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.35);
+    left: -277px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home__main .home__content {
+    width: 100%;
+  }
+  .customer .customer__item .customer__content .customer__text {
+    width: 100%;
+  }
+  .footer .footer__content .footer__item {
+    &:nth-child(1){
+      text-align: center;
+    }
+  }
+  .footer .footer__content .footer__item .footer__text, .footer .footer__content .footer__item .footer__license {
+    width: 100%;
+  }
+  .footer .footer__content .footer__info {
+    text-align: center;
+  }
+  .footer .footer__content .footer__info .footer__item {
+    padding-right: 10px;
+    &:nth-child(3){
+      padding-right: 0;
+    }
+  }
+}
