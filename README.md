@@ -1,6 +1,6 @@
 # **Trafalgar**
-[![Build Status](https://travis-ci.org/greenkeeperio/website.svg?branch=master)](https://sickboyrari.github.io/trafalagar-dist/)
-https://sickboyrari.github.io/trafalagar-dist/
+[![Build Status](https://travis-ci.org/greenkeeperio/website.svg?branch=master)](https://sickboyrari.github.io/trafalgar-lp/)
+https://sickboyrari.github.io/trafalgar-lp/
 ___
 Page layout with addition of animations
 ___
